@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: insurance_raw
+    database: INSURANCE_RAW  # Το όνομα της DB στο Snowflake
+    schema: JAFFLE_SHOP      # Το schema που φτιάξαμε
+    tables:
+      - name: customers
+      - name: policies
+      - name: claims
